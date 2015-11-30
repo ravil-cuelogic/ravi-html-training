@@ -9,7 +9,7 @@ body {
 html, body {
 	height: 100%;
 }
-h2, h3, h4 {
+h1, h2, h3, h4 {
 	font-weight: 300;
 }
 body a{
@@ -99,6 +99,7 @@ footer {
 	width: 100%;
 	height: 40px;
 	background-color: #231f20;
+	clear: both;
 }
 
 .login-container {
@@ -111,7 +112,7 @@ footer {
 	-moz-border-radius: 4px;
 }
 
-.login-container input {
+.login-container input, .popular-posts input {
 	width: 300px;
 	height: 25px;
 	padding: 5px;
@@ -142,4 +143,106 @@ footer {
 	bottom: 0;
 }
 
-/*day2*/
+.blog-container {
+	margin: 0 auto;
+	width: 900px;
+} 
+
+article {
+
+}
+
+article {
+	width: 680px;
+	height: auto;
+	float: left;
+	padding: 20px;
+}
+
+aside {
+	width: 180px;
+	height: auto;
+	float: left;
+	padding: 20px 0;
+}
+
+.blog-post span, .popular-posts span {
+	color: #808080;
+	font-size: 12px;
+}
+
+.blog-post img {
+	margin-top: 10px;
+	width: 680px;
+}
+
+.blog-post p {
+	font-size: 14px;
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+
+.read-more {
+	font-size: 14px;
+	color: #f26622;
+}
+
+.sidebar-post, .post-desc {
+	margin-bottom: 20px;
+}
+
+.popular-posts input {
+	height: 20px;
+	width: 180px;
+}
+
+.popular-posts h3 {
+	color: #f26622;
+	margin: 10px 0;
+	font-size: 16px;
+}
+
+.popular-posts img {
+	width: 180px;
+}
+
+.popular-posts a {
+	font-size: 14px;
+	padding-top: 5px;
+	color: #231f20;
+}
+
+section {
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+.client-info {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.client-info th, .client-info td, .client-info li {
+	border: 1px solid #f26622;
+	padding: 5px 10px; 
+}
+
+.client-info td, .client-data li {
+	border-top: none; 
+	border-color: #cccccc;
+	padding-top: 10px;
+}
+
+.client-info, .client-data{
+	clear: both;
+}
+
+.client-info li {
+	display: table-cell;
+	width: 194px;
+}
+
+.client-data li {
+	display: table-cell;
+}
