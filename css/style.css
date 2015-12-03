@@ -39,21 +39,21 @@ header {
 	float: left;
 	width: 25%;
 }
-.nav li{
+nav li{
 	display:inline;
 }
-.nav a{
+nav a{
 	color: #ffffff;
 }
-.top-nav {
+nav {
 	float: right;
 	width: 50%;
 }
-.top-nav li{
+nav li{
 	float: right;
 	margin: 10px 20px;
 }
-.top-nav a:hover {
+nav a:hover {
 	border-bottom: 2px solid #f26522;
 	padding-bottom: 5px;
 }
@@ -61,39 +61,11 @@ header {
 	width: 100%;
 	min-width: 1080px;
 	min-height: 374px;
-	background: #376c90 url("../images/banner.jpg") no-repeat;
-	background-size: cover;
 }
-.listing {
+.banner-container img {
 	width: 100%;
-	height: 435px;
-	padding-bottom: 30px;
-	background-color: #f0efef;
-}
-.listing-title {
-	padding: 30px;
-	text-align: center;
-}
-.listing-title h2 {
-	font-size: 30px;
-	font-weight: 300;
-}
-.listing-categories {
-	width: 1080px;
-	height: 200px;
-	margin: 0 auto;
 }
 
-.rental, .sales, .retail {
-	width: 360px;
-	float: left;
-	text-align: center;
-}
-
-.listing-categories h3 {
-	font-weight: 300;
-	padding-top: 10px;
-}
 
 footer {
 	width: 100%;
@@ -165,22 +137,18 @@ textarea {
 
 .blog-container {
 	margin: 0 auto;
-	width: 900px;
+	width: 1080px;
 } 
 
 article {
-
-}
-
-article {
-	width: 680px;
+	width: 754px;
 	height: auto;
 	float: left;
 	padding: 20px;
 }
 
 aside {
-	width: 180px;
+	width: 280px;
 	height: auto;
 	float: left;
 	padding: 20px 0;
@@ -189,6 +157,11 @@ aside {
 .blog-post span, .popular-posts span {
 	color: #808080;
 	font-size: 12px;
+}
+
+.blog-post span {
+	display: block;
+	margin: 2px 0 10px 2px;
 }
 
 .blog-post img, .blog-post iframe  {
@@ -213,7 +186,7 @@ aside {
 
 .popular-posts input {
 	height: 20px;
-	width: 180px;
+	width: 280px;
 }
 
 .popular-posts h3 {
@@ -223,7 +196,7 @@ aside {
 }
 
 .popular-posts img {
-	width: 180px;
+	width: 280px;
 }
 
 .popular-posts a {
